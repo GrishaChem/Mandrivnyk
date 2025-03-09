@@ -1,30 +1,64 @@
-.container{
-     padding: 50px 30px 0 30px;
+.container {
+    padding: 50px 30px 0 30px;
 }
 
-.ul{
+.ul {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
 }
 
-.li{
+.li {
     width: calc((100% - 20px) / 3);
     display: flex;
-    align-items: stretch
-   
+    align-items: stretch;
+    position: relative;
+
 }
 
-.bgi1{
-     background-size: cover;
+.bgi1 {
+    background-size: cover;
     background-position: center;
     width: 100%;
     min-height: 1px;
-  aspect-ratio: 16 / 9;
+    aspect-ratio: 16 / 9;
 }
 
-.bgi1 img {
-    width: 100%; /* Чтобы подстроилось под li */
-    height: auto; /* Сохраняем пропорции */
-    display: block; /* Убираем лишние отступы */
+.img {
+    width: 100%;
+    /* Чтобы подстроилось под li */
+    height: auto;
+    /* Сохраняем пропорции */
+    display: block;
+    /* Убираем лишние отступы */
+}
+
+.p {
+    display: flex;
+    position: absolute;
+    font-family: "Rubik Mono One", monospace;
+    font-weight: 400;
+    font-size: 24px;
+    margin: 0;
+    color: #000;
+    backdrop-filter: blur(4px);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    border: 6px solid #054200;
+    border-radius: 4px;
+    background: rgba(112, 170, 106, 0.5);
+    justify-content: center;
+    align-items: center;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    white-space: nowrap;
+}
+
+.bottom {
+    top: 85%;
+
+}
+
+.up {
+    top: 15%;
 }

@@ -1,0 +1,115 @@
+.container{
+    padding: 50px 30px 0 30px;
+}
+.wrapper{
+    background: rgba(112, 170, 106, 0.5);
+    border-radius: 20px;
+/* width: 100%; */
+height: 780px;
+padding: 25px 20px;
+}
+
+.h1{
+    font-family: "Inter";
+font-weight: 400;
+font-size: 40px;
+text-align: center;
+color: #000;
+margin-bottom: 50px;
+}
+.ul{
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+}
+
+.li{
+    width: calc((100% / 4));
+    background-color: white;
+    box-sizing: border-box;
+    padding: 15px 25px;
+    height: 584px;
+
+}
+
+.bgi1{
+    background-image: url(../../Images/boot.png);
+    background-size:cover;
+    background-position: center;
+     max-width: 270px;
+    height: 260px;
+    margin-bottom: 15px;
+}
+
+.bgi2{
+   
+}
+
+.h21{
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 20px;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.icon{
+     width: 140px;
+  height: 24px;
+}
+
+p{
+     font-family: "Inter";
+    font-weight: 400;
+    font-size: 14px;
+    color: #000;
+    margin-bottom: 25px;
+}
+
+.wrapReview{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 25px;
+}
+
+.span{
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 14px;
+    color: #000;
+}
+
+.price{
+     font-family: "Inter";
+    font-weight: 400;
+    font-size: 24px;
+    color: #000;
+}
+
+.bgi2{
+    background-image: url(../../Images/coat.png);
+    background-size:cover;
+    background-position: center;
+     max-width: 270px;
+    height: 260px;
+    margin-bottom: 15px;
+}
+
+.bgi3{
+    background-image: url(../../Images/axe.png);
+    background-size:cover;
+    background-position: center;
+     max-width: 270px;
+    height: 260px;
+    margin-bottom: 15px;
+}
+
+.bgi4{
+    background-image: url(../../Images/bag.png);
+    background-size:cover;
+    background-position: center;
+    max-width: 270px;
+    height: 260px;
+    margin-bottom: 15px;
+}
