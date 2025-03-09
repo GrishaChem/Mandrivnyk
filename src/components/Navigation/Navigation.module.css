@@ -1,0 +1,30 @@
+.container{
+     padding: 50px 30px 0 30px;
+}
+
+.ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.li{
+    width: calc((100% - 20px) / 3);
+    display: flex;
+    align-items: stretch
+   
+}
+
+.bgi1{
+     background-size: cover;
+    background-position: center;
+    width: 100%;
+    min-height: 1px;
+  aspect-ratio: 16 / 9;
+}
+
+.bgi1 img {
+    width: 100%; /* Чтобы подстроилось под li */
+    height: auto; /* Сохраняем пропорции */
+    display: block; /* Убираем лишние отступы */
+}

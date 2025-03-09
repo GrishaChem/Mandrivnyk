@@ -1,0 +1,121 @@
+.container{
+  padding: 15px 15px;
+    display: flex;
+    align-items: center;
+    position: relative;
+  /* justify-content: space-between; */
+  /* min-width: 1440px; */
+  /* width: 100vw; */
+  }
+
+.wrapper{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: start;
+}
+
+.logoPic{
+    background-image: url(../../Images/logo.png);
+    background-size: cover;
+    min-width: 143px;
+    min-height: 116px;
+}
+
+.logoName{
+  font-family: "Kurale", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 36px;
+  color: #054200;
+  margin-right: 62px;
+}
+
+.searchBar{
+    padding: 15px;
+  width: 100%;
+  max-width: 600px;
+  outline: none;
+  border: 1px, solid;
+  border-radius: 1;
+  /* height: 50px; */
+  margin-right: 5px;
+  
+}
+
+.menu{
+    display: flex;
+    list-style-type: none;
+    gap: 5px;
+}
+
+.liI{
+  font-family: "Inter";
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 19px;
+  padding: 10px;
+  /* align-self: center; */
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+
+.nav{
+  height: 100%;
+  list-style-type: none;
+  display: flex;
+  /* align-content: flex-end; */
+  /* align-items: ; */
+}
+.navItem{
+  text-align: center;
+  width: 143px;
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  color: #000;
+}
+
+.wrap{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-right: 15px;
+}
+
+.icon{
+  min-width: 24px;
+  min-height: 24px;
+  position: absolute;
+  right: 15px;
+  top: 13px;
+   display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+.inputWrap{
+  position: relative;
+  display: flex;
+  width: 600px;
+}
+
+.iconAcc{
+  
+}
+
+.hitler{
+font-family: "Inter";
+font-weight: 400;
+font-size: 16px;
+color: #ffff;
+background-color: #054200;
+padding: 9px 15px;
+}
